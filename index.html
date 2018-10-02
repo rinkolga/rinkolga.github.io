@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Тел. 8702 606 20 99</title>
+	<title>Тел. 87026062099</title>
 	<!-- META TAGS -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,16 +52,16 @@
 		<ul class="slides">
 		  <li>
 				<div><span class="small-title uppercase montserrat-text">...</span></div>
-				<div class="big-title uppercase montserrat-text">МАСТЕР в Шымкенте</div>
-				<h1 align="center"><strong>87026062099</strong></h1>
-				<p>Ремонт газовых котлов отопления и газовых колонок в г. Шымкент. Ремонт любых моделей с гарантией</p>
+				<div class="big-title uppercase montserrat-text">МАСТЕР в г.Шымкент</div>
+				<h1 align="center"><strong>+77026062099</strong></h1>
+				<p>Ремонт газовых котлов отопления и газовых колонок в г.Шымкент. Ремонт любых моделей с гарантией</p>
 				
 			</li>
 			<li>
 				<div></div>
-				<div class="big-title uppercase montserrat-text">МАСТЕР в Шымкенте</div>
-				<h1 align="center"><strong>87026062099</strong></h1>
-				<p align="center"><strong>Ремонт газовых котлов отопления и газовых колонок в г. Шымкент. Ремонт любых моделей с гарантией</strong></p>
+				<div class="big-title uppercase montserrat-text">МАСТЕР в г.Шымкент</div>
+				<h1 align="center"><strong>+77026062099</strong></h1>
+				<p align="center"><strong>Ремонт газовых котлов отопления и газовых колонок в г.Шымкент. Ремонт любых моделей с гарантией</strong></p>
 				
 <p> </p>
 			</li>
@@ -345,8 +345,8 @@
 			<div class="col-md-6 col-sm-12">
 				<div class="row">
 					<div class="white-section" style="padding:20px">
-						<p><span class="montserrat-text uppercase" style="font-size:24px"> Тел: 8 702 606 20 99</span></p>
-						<p><span class="montserrat-text uppercase" style="font-size:24px"> 	8 705 854 55 45 </span> </p>
+						<p><span class="montserrat-text uppercase" style="font-size:24px"> Тел: 87026062099</span></p>
+						<p><span class="montserrat-text uppercase" style="font-size:24px"> 	87058545545 </span> </p>
 						<p>
 						  
 					    </p>
@@ -355,6 +355,39 @@
 								<input type="text" name="email">
 								<span>climate.service.rm@gmail.com</span>
 							</div>
+							<a href="#modal" class="button openModal">Заказать обратный звонок
+							<div id="modal" class="modal">
+    <div>
+       <div class="text" align="center">
+       <div id="blok_tel">
+  <form action="" method="post" class="form1">
+ЗАКАЗ ОБРАТНОГО ЗВОНКА
+<input type="text" name="tel" class="inputbox" value="Номер телефона с кодом"
+       onfocus="(this.value == '0123456789') && (this.value = '')"
+       onblur="(this.value == '') && (this.value = '0123456789')">
+<input type="submit" class="button" name="submit_tel">
+  </form>
+<if(isset($_POST["submit_tel"])) 
+{
+$email = 'rink_olga@mail.ru';
+/* Отправляем email */
+mail($email, "Заказ обратного звонка на сайте ...", "\n
+Посетитель заказал обратный звонок! \n
+Телефон : ".$_POST['tel']."
+");
+echo 'Заявка принята!';
+}
+?>
+</div>
+
+
+</div>
+        <a href="#close" title="Закрыть">Закрыть</a>
+    </div>        
+</div></a>
+							
+							
+							
 							<button type="submit" class="btn green" style="margin-top:20px"><span>Отправить</span></button>
 						</form>
 					</div>
