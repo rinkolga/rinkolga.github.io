@@ -1,6 +1,6 @@
 <?
      
-    //Если поступили данные..
+    //Р•СЃР»Рё РїРѕСЃС‚СѓРїРёР»Рё РґР°РЅРЅС‹Рµ..
     if( isset($_POST['name'],$_POST['phone'])){
          
         $name = trim( htmlspecialchars( substr($_POST['name'], 20) ) );
@@ -9,12 +9,12 @@
         if( $name != '' AND $phone != '' ){
              
             $email = "rink_olga@mail.ru";
-            $domen = "www.RMservice.tk";
+            $domen = "rmservice.tk site.ru";
  
-            $message = 'Имя: '.$name.'<br>Телефон: '.$phone;
+            $message = 'РРјСЏ: '.$name.'<br>РўРµР»РµС„РѕРЅ: '.$phone;
             $headers  = "Content-type: text/html; charset=utf-8 \r\n";
             $headers .= "From: ".$domen." <robot@".$domen.">\r\n";
-            $subject = "Обратный звонок";
+            $subject = "РћР±СЂР°С‚РЅС‹Р№ Р·РІРѕРЅРѕРє";
             mail($email, $subject, $message, $headers);
             echo 1;
  
