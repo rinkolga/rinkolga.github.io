@@ -9,7 +9,7 @@
         if( $name != '' AND $phone != '' ){
              
             $email = "rink_olga@mail.ru";
-            $domen = "rmservice.tk site.ru";
+            $domen = "rmservice.tk";
  
             $message = 'Имя: '.$name.'<br>Телефон: '.$phone;
             $headers  = "Content-type: text/html; charset=utf-8 \r\n";
